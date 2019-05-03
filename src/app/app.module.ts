@@ -16,12 +16,14 @@ import {
 } from '@angular/material';
 import { CharactersComponent } from './characters/characters.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharactersComponent,
-    HomepageComponent
+    HomepageComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
