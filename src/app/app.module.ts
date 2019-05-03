@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 import {
   MatBadgeModule,
   MatButtonModule,
@@ -26,6 +27,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+
+    FormsModule,
 
     MatBadgeModule,
     MatButtonModule,
