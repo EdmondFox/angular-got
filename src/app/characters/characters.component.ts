@@ -15,10 +15,14 @@ export class CharactersComponent implements OnInit {
   // };
 
   characters = CHARACTERS;
+  selectedCharacter: Character;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  onSelect(character: Character) {
+    this.selectedCharacter = character;
+  }
 }
