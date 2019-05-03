@@ -6,12 +6,18 @@
   </mat-toolbar-row>
   <mat-toolbar-row>
     <a mat-raised-button
-       routerLink="home">
+       routerLink="home"
+       routerLinkActive
+       #home="routerLinkActive"
+       [color]="home.isActive ? '': 'primary'">
       <mat-icon>home</mat-icon>
       Game of Thrones
     </a>
     <a mat-raised-button
-       routerLink="characters">
+       routerLink="characters"
+       routerLinkActive
+       #characters="routerLinkActive"
+       [color]="characters.isActive ? '': 'primary'">
       <mat-icon>list</mat-icon>
       Characters
     </a>
