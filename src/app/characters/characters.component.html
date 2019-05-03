@@ -1,3 +1,12 @@
-<p>
-  characters works!
-</p>
+<mat-card>
+  <mat-card-title>
+    <span
+      matBadge="{{ character.id }}"
+      matBadgeOverlap="false"
+      matBadgePosition="above after">{{ character.name | uppercase }}</span>
+  </mat-card-title>
+
+  <mat-card-content>
+    <span>status: </span>{{ character.status }}
+  </mat-card-content>
+</mat-card>
