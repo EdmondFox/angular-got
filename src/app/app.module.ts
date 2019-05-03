@@ -13,10 +13,14 @@ import {
   MatListModule,
   MatToolbarModule
 } from '@angular/material';
+import { CharactersComponent } from './characters/characters.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CharactersComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
